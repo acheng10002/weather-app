@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Check</title>
+    <link rel="stylesheet" id="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <div id="weather-check">
+      <h1>Weather Check</h1>
+      <label>Location: <label>
+      <input type="text" placeholder="Town/City, State">
+    </div>
+    <div id="forecast-info" >
+      <h1 id="location">Location</h1>
+      <div id="forecast-container">
+        <div class="day cell">Today</div>
+        <div class="day cell">Tomorrow</div>
+        <div class="day cell">Day After<br>Tomorrow</div>
+        <div class="temp cell" id="day-one-temp"></div>
+        <div class="temp cell" id="day-two-temp"></div>
+        <div class="temp cell" id="day-three-temp"></div>
+      </div>
+      <div>
+        <button id="convert-units">Convert to<br>Celsius/Farenheit</button>
+        <button id="lookup-location">Look Up<br>Different Location</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
